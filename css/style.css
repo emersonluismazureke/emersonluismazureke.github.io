@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html, body {
+  height: 100%;
+}
+
+body{
+ background: rgb(2,0,36);
+ background: linear-gradient(183deg, rgba(2,0,36,1) 0%, rgba(5,28,154,1) 100%);
+ margin: 0px;
+ color: white;
+ font-family: "Raleway", sans-serif;
+}
+
+.profile{
+  text-align: center;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 20px white;
+  margin-top: 20px;
+}
+h1{
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.lista{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.lista img {
+ width: 30px;
+ margin-top: 10px;
+}
+
+.links-list{
+  list-style: none;
+}
+
+.links-list li a {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 10px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px white;
+  
+
+}
+
+.links-list li a span {
+  display: block;
+  color: rgb(73, 73, 73);
+}
+
+
+
